@@ -1,22 +1,22 @@
 # Teme Python/AI
 
-Acest repository conține temele de la cursul Python/AI. Fiecare temă va fi
-păstrată separat, într-un director propriu (`homework_01`, `homework_02` etc.).
+Acest repository contine temele de la cursul Python/AI. Fiecare tema va fi
+pastrata separat, intr-un director propriu (`homework_01`, `homework_02` etc.).
 
-Este necesar Python 3.12 sau mai nou și `uv`. Comenzile se rulează din
+Este necesar Python 3.12 sau mai nou si `uv`. Comenzile se ruleaza din
 directorul repository-ului.
 
-## Instalarea dependențelor
+## Instalarea dependentelor
 
 ```bash
 uv sync
 ```
 
-## Tema 1 — Citire JSON și validare Pydantic
+## Tema 1 — Citire JSON si validare Pydantic
 
-Fișierul `homework_01/student.json` este citit cu modulul standard `json`.
-Clasa `StudentValidator` validează câmpurile `nume` (text), `varsta`
-(număr întreg pozitiv) și `email` (adresă de email validă).
+Fisierul `homework_01/student.json` este citit cu modulul standard `json`.
+Clasa `StudentValidator` valideaza campurile `nume` (text), `varsta`
+(numar intreg pozitiv) si `email` (adresa de email valida).
 
 ```bash
 uv run python -m homework_01.main
@@ -28,5 +28,5 @@ uv run python -m homework_01.main
 uv run pytest
 ```
 
-Testele verifică validarea datelor din fișierul JSON real, respingerea unui
-email invalid și respingerea vârstelor nepozitive.
+Testele verifica validarea datelor din fisierul JSON real, respingerea unui
+email invalid si respingerea varstelor nepozitive.
