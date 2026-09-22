@@ -1,6 +1,6 @@
 # Teme Python/AI
 
-Acest repository contine temele de la cursul Python/AI. Fiecare tema va fi
+Acest repository contine temele de la cursul Python-AI. Fiecare tema va fi
 pastrata separat, intr-un director propriu (`homework_01`, `homework_02` etc.).
 
 Este necesar Python 3.12 sau mai nou si `uv`. Comenzile se ruleaza din
