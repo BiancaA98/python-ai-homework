@@ -1,5 +1,5 @@
 .venv/
 .idea/
-__pycache__/
+*pycache*/
 .pytest_cache/
 .env
