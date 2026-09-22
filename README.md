@@ -29,4 +29,4 @@ uv run pytest
 ```
 
 Testele verifica validarea datelor din fisierul JSON real, respingerea unui
-email invalid si respingerea varstelor nepozitive.
+email invalid si respingerea unei varste egale cu zero sau negative.

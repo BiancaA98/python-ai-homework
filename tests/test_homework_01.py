@@ -23,7 +23,7 @@ def test_email_invalid():
 
 
 @pytest.mark.parametrize("varsta", [0, -1])
-def test_varsta_nepozitiva(varsta):
+def test_varsta_zero_sau_negativa(varsta):
     date = citeste_student().model_dump()
     date["varsta"] = varsta
 
