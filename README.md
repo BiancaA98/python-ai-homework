@@ -19,7 +19,7 @@ Clasa `StudentValidator` validează câmpurile `nume` (text), `varsta`
 (număr întreg pozitiv) și `email` (adresă de email validă).
 
 ```bash
-uv run python -m homework_01.student_validator
+uv run python -m homework_01.main
 ```
 
 ## Rularea testelor
