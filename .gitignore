@@ -3,3 +3,6 @@
 *pycache*/
 .pytest_cache/
 .env
+homework_03/chroma_db/
+homework_03/data_sources/*
+!homework_03/data_sources/.gitkeep
